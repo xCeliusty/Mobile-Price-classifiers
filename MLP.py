@@ -24,7 +24,7 @@ print(keras.__version__)
 # In[12]:
 
 
-dataset = pd.read_csv('mobilePriceClassification.csv')
+dataset = pd.read_csv('train.csv')
 print(dataset.columns)
 dataset.head(10)
 
